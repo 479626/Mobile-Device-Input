@@ -8,7 +8,6 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        animator = gameObject.GetComponent<Animator>();
         rb = gameObject.GetComponent<Rigidbody2D>();
     }
 
